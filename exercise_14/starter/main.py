@@ -38,18 +38,46 @@ def go(config: DictConfig):
         )
 
     if "preprocess" in steps_to_execute:
-        ## YOUR CODE HERE: call the preprocess step
-        pass
+
+        _ = mlflow.run(
+            os.path.join(root_path, "preprocess"),
+            "main",
+            parameters={
+                "input_artifact": "raw_data.parquet",
+                "artifact_name": "processed_data.csv",
+                "artifact_type": "processed_data",
+                "artifact_description": "Preprocessed Data"
+            },
+        )
 
     if "check_data" in steps_to_execute:
 
-        ## YOUR CODE HERE: call the check_data step
-        pass
+        _ = mlflow.run(
+            os.path.join(root_path, "check_data"),
+            "main",
+            parameters={
+                "reference_artifact": config["data"]["reference_dataset"],
+                "sample_artifact": "processed_data.csv",
+                "ks_alpha": config["data"]["ks_alpha"]
+            },
+        )
+
 
     if "segregate" in steps_to_execute:
 
-        ## YOUR CODE HERE: call the segregate step
-        pass
+        _ = mlflow.run(
+            os.path.join(root_path, "segregate"),
+            "main",
+            parameters={
+                "input_artifact" : "processed_data.csv",
+                "artifact_root" : "",
+                "artifact_type" : "",
+                "test_size" : config["data"]["test_size"],
+                "random_state" : config["main"]["random_seed"],
+                "stratify" : config["data"]["stratify"]
+            },
+        )
+
 
     if "random_forest" in steps_to_execute:
 
