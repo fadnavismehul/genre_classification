@@ -1,0 +1,15 @@
+[1m============================================================================================= test session starts ==============================================================================================
+platform darwin -- Python 3.9.13, pytest-6.2.2, py-1.11.0, pluggy-0.13.1 -- /Users/mehul.fadnavis/opt/anaconda3/envs/mlflow-8e76858e4a2db0919e08db6b1fb679975d882e04/bin/python
+cachedir: .pytest_cache
+rootdir: /Users/mehul.fadnavis/Desktop/Personal/ML NanoDegree/Code/genre_classification/exercise_14/starter/check_data
+[1mcollected 4 items                                                                                                                                                                                              
+test_data.py::test_column_presence_and_type [32mPASSED
+test_data.py::test_class_names [32mPASSED
+test_data.py::test_column_ranges [32mPASSED
+test_data.py::test_kolmogorov_smirnov [32mPASSED
+[33m=============================================================================================== warnings summary ===============================================================================================
+test_data.py::test_column_presence_and_type
+  /Users/mehul.fadnavis/opt/anaconda3/envs/mlflow-8e76858e4a2db0919e08db6b1fb679975d882e04/lib/python3.9/site-packages/pluggy/callers.py:187: DtypeWarning: Columns (16) have mixed types.Specify dtype option on import or set low_memory=False.
+    res = hook_impl.function(*args)
+-- Docs: https://docs.pytest.org/en/stable/warnings.html
+[33m========================================================================================= [32m4 passed[39m, [33m[1m1 warning[22m in 4.45s =========================================================================================

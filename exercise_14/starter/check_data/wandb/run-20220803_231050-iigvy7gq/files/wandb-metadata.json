@@ -1,0 +1,31 @@
+{
+    "os": "macOS-11.6.8-x86_64-i386-64bit",
+    "python": "3.9.13",
+    "heartbeatAt": "2022-08-03T15:10:51.467028",
+    "startedAt": "2022-08-03T15:10:50.457773",
+    "docker": null,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": [
+        "-s",
+        "-vv",
+        ".",
+        "--reference_artifact",
+        "exercise_14/preprocessed_data.csv:latest",
+        "--sample_artifact",
+        "preprocessed_data.csv:latest",
+        "--ks_alpha",
+        "0.05"
+    ],
+    "state": "running",
+    "program": "/Users/mehul.fadnavis/opt/anaconda3/envs/mlflow-8e76858e4a2db0919e08db6b1fb679975d882e04/bin/pytest",
+    "git": {
+        "remote": "https://github.com/fadnavismehul/genre_classification.git",
+        "commit": "462b09adccb8884afad0565cd2f0c0591b2e4b22"
+    },
+    "email": "fadnavismehul@gmail.com",
+    "root": "/Users/mehul.fadnavis/Desktop/Personal/ML NanoDegree/Code/genre_classification",
+    "host": "ITSG006062-MAC",
+    "username": "mehul.fadnavis",
+    "executable": "/Users/mehul.fadnavis/opt/anaconda3/envs/mlflow-8e76858e4a2db0919e08db6b1fb679975d882e04/bin/python"
+}

@@ -1,0 +1,31 @@
+{
+    "os": "macOS-11.6.8-x86_64-i386-64bit",
+    "python": "3.10.5",
+    "heartbeatAt": "2022-08-03T15:10:16.634691",
+    "startedAt": "2022-08-03T15:10:15.712387",
+    "docker": null,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": [
+        "--file_url",
+        "https://github.com/udacity/nd0821-c2-build-model-workflow-exercises/blob/master/lesson-2-data-exploration-and-preparation/exercises/exercise_4/starter/genres_mod.parquet?raw=true",
+        "--artifact_name",
+        "raw_data.parquet",
+        "--artifact_type",
+        "raw_data",
+        "--artifact_description",
+        "Data as downloaded"
+    ],
+    "state": "running",
+    "program": "/Users/mehul.fadnavis/Desktop/Personal/ML NanoDegree/Code/genre_classification/exercise_14/starter/download/download_data.py",
+    "codePath": "exercise_14/starter/download/download_data.py",
+    "git": {
+        "remote": "https://github.com/fadnavismehul/genre_classification.git",
+        "commit": "462b09adccb8884afad0565cd2f0c0591b2e4b22"
+    },
+    "email": "fadnavismehul@gmail.com",
+    "root": "/Users/mehul.fadnavis/Desktop/Personal/ML NanoDegree/Code/genre_classification",
+    "host": "ITSG006062-MAC",
+    "username": "mehul.fadnavis",
+    "executable": "/Users/mehul.fadnavis/opt/anaconda3/envs/mlflow-029b847b797538bf305204238741d4347f5e47c3/bin/python"
+}

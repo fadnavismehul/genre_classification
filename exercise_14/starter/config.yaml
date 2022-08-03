@@ -1,6 +1,6 @@
 main:
-  project_name: exercise_14
-  experiment_name: dev
+  project_name: genre_classification_prod
+  experiment_name: prod
   execute_steps:
     - download
     - preprocess

@@ -1,0 +1,167 @@
+2022-08-03 22:54:08,013 INFO    MainThread:42943 [internal.py:wandb_internal():90] W&B internal server running at pid: 42943, started at: 2022-08-03 22:54:08.013340
+2022-08-03 22:54:08,014 INFO    WriterThread:42943 [datastore.py:open_for_write():75] open: /Users/mehul.fadnavis/Desktop/Personal/ML NanoDegree/Code/genre_classification/exercise_14/starter/segregate/wandb/run-20220803_225407-3o47b61w/run-3o47b61w.wandb
+2022-08-03 22:54:08,016 DEBUG   SenderThread:42943 [sender.py:send():232] send: header
+2022-08-03 22:54:08,016 DEBUG   SenderThread:42943 [sender.py:send():232] send: run
+2022-08-03 22:54:08,368 DEBUG   HandlerThread:42943 [handler.py:handle_request():141] handle_request: check_version
+2022-08-03 22:54:08,374 INFO    SenderThread:42943 [dir_watcher.py:__init__():197] watching files in: /Users/mehul.fadnavis/Desktop/Personal/ML NanoDegree/Code/genre_classification/exercise_14/starter/segregate/wandb/run-20220803_225407-3o47b61w/files
+2022-08-03 22:54:08,374 INFO    SenderThread:42943 [sender.py:_start_run_threads():811] run started: 3o47b61w with start time 1659538447
+2022-08-03 22:54:08,374 DEBUG   SenderThread:42943 [sender.py:send():232] send: summary
+2022-08-03 22:54:08,374 INFO    SenderThread:42943 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-08-03 22:54:08,374 DEBUG   SenderThread:42943 [sender.py:send_request():246] send_request: check_version
+2022-08-03 22:54:08,458 DEBUG   HandlerThread:42943 [handler.py:handle_request():141] handle_request: run_start
+2022-08-03 22:54:08,459 DEBUG   HandlerThread:42943 [meta.py:__init__():35] meta init
+2022-08-03 22:54:08,459 DEBUG   HandlerThread:42943 [meta.py:__init__():49] meta init done
+2022-08-03 22:54:08,459 DEBUG   HandlerThread:42943 [meta.py:probe():209] probe
+2022-08-03 22:54:08,465 DEBUG   HandlerThread:42943 [meta.py:_setup_git():199] setup git
+2022-08-03 22:54:08,489 DEBUG   HandlerThread:42943 [meta.py:_setup_git():206] setup git done
+2022-08-03 22:54:08,490 DEBUG   HandlerThread:42943 [meta.py:_save_pip():53] save pip
+2022-08-03 22:54:08,490 DEBUG   HandlerThread:42943 [meta.py:_save_pip():67] save pip done
+2022-08-03 22:54:08,491 DEBUG   HandlerThread:42943 [meta.py:_save_conda():74] save conda
+2022-08-03 22:54:09,378 INFO    Thread-7  :42943 [dir_watcher.py:_on_file_created():244] file/dir created: /Users/mehul.fadnavis/Desktop/Personal/ML NanoDegree/Code/genre_classification/exercise_14/starter/segregate/wandb/run-20220803_225407-3o47b61w/files/wandb-summary.json
+2022-08-03 22:54:09,379 INFO    Thread-7  :42943 [dir_watcher.py:_on_file_created():244] file/dir created: /Users/mehul.fadnavis/Desktop/Personal/ML NanoDegree/Code/genre_classification/exercise_14/starter/segregate/wandb/run-20220803_225407-3o47b61w/files/requirements.txt
+2022-08-03 22:54:09,379 INFO    Thread-7  :42943 [dir_watcher.py:_on_file_created():244] file/dir created: /Users/mehul.fadnavis/Desktop/Personal/ML NanoDegree/Code/genre_classification/exercise_14/starter/segregate/wandb/run-20220803_225407-3o47b61w/files/conda-environment.yaml
+2022-08-03 22:54:09,630 DEBUG   HandlerThread:42943 [meta.py:_save_conda():84] save conda done
+2022-08-03 22:54:09,630 DEBUG   HandlerThread:42943 [meta.py:probe():247] probe done
+2022-08-03 22:54:09,636 DEBUG   SenderThread:42943 [sender.py:send():232] send: files
+2022-08-03 22:54:09,636 INFO    SenderThread:42943 [sender.py:_save_file():948] saving file wandb-metadata.json with policy now
+2022-08-03 22:54:09,642 DEBUG   HandlerThread:42943 [handler.py:handle_request():141] handle_request: stop_status
+2022-08-03 22:54:09,643 DEBUG   SenderThread:42943 [sender.py:send_request():246] send_request: stop_status
+2022-08-03 22:54:09,982 DEBUG   SenderThread:42943 [sender.py:send():232] send: telemetry
+2022-08-03 22:54:09,982 DEBUG   SenderThread:42943 [sender.py:send():232] send: telemetry
+2022-08-03 22:54:10,379 INFO    Thread-7  :42943 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/mehul.fadnavis/Desktop/Personal/ML NanoDegree/Code/genre_classification/exercise_14/starter/segregate/wandb/run-20220803_225407-3o47b61w/files/conda-environment.yaml
+2022-08-03 22:54:10,379 INFO    Thread-7  :42943 [dir_watcher.py:_on_file_created():244] file/dir created: /Users/mehul.fadnavis/Desktop/Personal/ML NanoDegree/Code/genre_classification/exercise_14/starter/segregate/wandb/run-20220803_225407-3o47b61w/files/output.log
+2022-08-03 22:54:10,380 INFO    Thread-7  :42943 [dir_watcher.py:_on_file_created():244] file/dir created: /Users/mehul.fadnavis/Desktop/Personal/ML NanoDegree/Code/genre_classification/exercise_14/starter/segregate/wandb/run-20220803_225407-3o47b61w/files/wandb-metadata.json
+2022-08-03 22:54:10,473 INFO    Thread-11 :42943 [upload_job.py:push():132] Uploaded file /var/folders/g2/mc945vwd1fv74fgwp37yl33r0000gr/T/tmpyk4qvk7_wandb/fl00inqp-wandb-metadata.json
+2022-08-03 22:54:12,176 DEBUG   HandlerThread:42943 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-03 22:54:12,177 DEBUG   SenderThread:42943 [sender.py:send():232] send: exit
+2022-08-03 22:54:12,177 INFO    SenderThread:42943 [sender.py:send_exit():368] handling exit code: 1
+2022-08-03 22:54:12,177 INFO    SenderThread:42943 [sender.py:send_exit():370] handling runtime: 3
+2022-08-03 22:54:12,178 INFO    SenderThread:42943 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-08-03 22:54:12,178 INFO    SenderThread:42943 [sender.py:send_exit():376] send defer
+2022-08-03 22:54:12,178 DEBUG   SenderThread:42943 [sender.py:send_request():246] send_request: poll_exit
+2022-08-03 22:54:12,179 DEBUG   HandlerThread:42943 [handler.py:handle_request():141] handle_request: defer
+2022-08-03 22:54:12,179 INFO    HandlerThread:42943 [handler.py:handle_request_defer():164] handle defer: 0
+2022-08-03 22:54:12,179 DEBUG   SenderThread:42943 [sender.py:send_request():246] send_request: defer
+2022-08-03 22:54:12,179 INFO    SenderThread:42943 [sender.py:send_request_defer():385] handle sender defer: 0
+2022-08-03 22:54:12,179 INFO    SenderThread:42943 [sender.py:transition_state():389] send defer: 1
+2022-08-03 22:54:12,179 DEBUG   HandlerThread:42943 [handler.py:handle_request():141] handle_request: defer
+2022-08-03 22:54:12,180 INFO    HandlerThread:42943 [handler.py:handle_request_defer():164] handle defer: 1
+2022-08-03 22:54:12,254 DEBUG   SenderThread:42943 [sender.py:send_request():246] send_request: defer
+2022-08-03 22:54:12,254 INFO    SenderThread:42943 [sender.py:send_request_defer():385] handle sender defer: 1
+2022-08-03 22:54:12,254 INFO    SenderThread:42943 [sender.py:transition_state():389] send defer: 2
+2022-08-03 22:54:12,254 DEBUG   SenderThread:42943 [sender.py:send():232] send: stats
+2022-08-03 22:54:12,255 DEBUG   HandlerThread:42943 [handler.py:handle_request():141] handle_request: defer
+2022-08-03 22:54:12,255 INFO    HandlerThread:42943 [handler.py:handle_request_defer():164] handle defer: 2
+2022-08-03 22:54:12,255 DEBUG   SenderThread:42943 [sender.py:send_request():246] send_request: defer
+2022-08-03 22:54:12,255 INFO    SenderThread:42943 [sender.py:send_request_defer():385] handle sender defer: 2
+2022-08-03 22:54:12,255 INFO    SenderThread:42943 [sender.py:transition_state():389] send defer: 3
+2022-08-03 22:54:12,256 DEBUG   HandlerThread:42943 [handler.py:handle_request():141] handle_request: defer
+2022-08-03 22:54:12,256 INFO    HandlerThread:42943 [handler.py:handle_request_defer():164] handle defer: 3
+2022-08-03 22:54:12,256 DEBUG   SenderThread:42943 [sender.py:send_request():246] send_request: defer
+2022-08-03 22:54:12,256 INFO    SenderThread:42943 [sender.py:send_request_defer():385] handle sender defer: 3
+2022-08-03 22:54:12,256 INFO    SenderThread:42943 [sender.py:transition_state():389] send defer: 4
+2022-08-03 22:54:12,257 DEBUG   HandlerThread:42943 [handler.py:handle_request():141] handle_request: defer
+2022-08-03 22:54:12,257 INFO    HandlerThread:42943 [handler.py:handle_request_defer():164] handle defer: 4
+2022-08-03 22:54:12,257 DEBUG   SenderThread:42943 [sender.py:send():232] send: summary
+2022-08-03 22:54:12,257 INFO    SenderThread:42943 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2022-08-03 22:54:12,258 DEBUG   SenderThread:42943 [sender.py:send_request():246] send_request: defer
+2022-08-03 22:54:12,258 INFO    SenderThread:42943 [sender.py:send_request_defer():385] handle sender defer: 4
+2022-08-03 22:54:12,258 INFO    SenderThread:42943 [sender.py:transition_state():389] send defer: 5
+2022-08-03 22:54:12,258 DEBUG   HandlerThread:42943 [handler.py:handle_request():141] handle_request: defer
+2022-08-03 22:54:12,258 INFO    HandlerThread:42943 [handler.py:handle_request_defer():164] handle defer: 5
+2022-08-03 22:54:12,258 DEBUG   SenderThread:42943 [sender.py:send_request():246] send_request: defer
+2022-08-03 22:54:12,259 INFO    SenderThread:42943 [sender.py:send_request_defer():385] handle sender defer: 5
+2022-08-03 22:54:12,283 DEBUG   HandlerThread:42943 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-03 22:54:12,386 INFO    Thread-7  :42943 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/mehul.fadnavis/Desktop/Personal/ML NanoDegree/Code/genre_classification/exercise_14/starter/segregate/wandb/run-20220803_225407-3o47b61w/files/wandb-summary.json
+2022-08-03 22:54:12,386 INFO    Thread-7  :42943 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/mehul.fadnavis/Desktop/Personal/ML NanoDegree/Code/genre_classification/exercise_14/starter/segregate/wandb/run-20220803_225407-3o47b61w/files/output.log
+2022-08-03 22:54:12,651 INFO    SenderThread:42943 [sender.py:transition_state():389] send defer: 6
+2022-08-03 22:54:12,651 DEBUG   SenderThread:42943 [sender.py:send_request():246] send_request: poll_exit
+2022-08-03 22:54:12,652 DEBUG   HandlerThread:42943 [handler.py:handle_request():141] handle_request: defer
+2022-08-03 22:54:12,652 INFO    HandlerThread:42943 [handler.py:handle_request_defer():164] handle defer: 6
+2022-08-03 22:54:12,652 DEBUG   SenderThread:42943 [sender.py:send_request():246] send_request: defer
+2022-08-03 22:54:12,652 INFO    SenderThread:42943 [sender.py:send_request_defer():385] handle sender defer: 6
+2022-08-03 22:54:12,652 INFO    SenderThread:42943 [dir_watcher.py:finish():312] shutting down directory watcher
+2022-08-03 22:54:12,756 DEBUG   HandlerThread:42943 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-03 22:54:13,392 INFO    SenderThread:42943 [dir_watcher.py:_on_file_modified():257] file/dir modified: /Users/mehul.fadnavis/Desktop/Personal/ML NanoDegree/Code/genre_classification/exercise_14/starter/segregate/wandb/run-20220803_225407-3o47b61w/files/config.yaml
+2022-08-03 22:54:13,392 INFO    SenderThread:42943 [dir_watcher.py:finish():342] scan: /Users/mehul.fadnavis/Desktop/Personal/ML NanoDegree/Code/genre_classification/exercise_14/starter/segregate/wandb/run-20220803_225407-3o47b61w/files
+2022-08-03 22:54:13,393 INFO    SenderThread:42943 [dir_watcher.py:finish():356] scan save: /Users/mehul.fadnavis/Desktop/Personal/ML NanoDegree/Code/genre_classification/exercise_14/starter/segregate/wandb/run-20220803_225407-3o47b61w/files/requirements.txt requirements.txt
+2022-08-03 22:54:13,395 INFO    SenderThread:42943 [dir_watcher.py:finish():356] scan save: /Users/mehul.fadnavis/Desktop/Personal/ML NanoDegree/Code/genre_classification/exercise_14/starter/segregate/wandb/run-20220803_225407-3o47b61w/files/output.log output.log
+2022-08-03 22:54:13,398 INFO    SenderThread:42943 [dir_watcher.py:finish():356] scan save: /Users/mehul.fadnavis/Desktop/Personal/ML NanoDegree/Code/genre_classification/exercise_14/starter/segregate/wandb/run-20220803_225407-3o47b61w/files/config.yaml config.yaml
+2022-08-03 22:54:13,401 INFO    SenderThread:42943 [dir_watcher.py:finish():356] scan save: /Users/mehul.fadnavis/Desktop/Personal/ML NanoDegree/Code/genre_classification/exercise_14/starter/segregate/wandb/run-20220803_225407-3o47b61w/files/wandb-summary.json wandb-summary.json
+2022-08-03 22:54:13,404 INFO    SenderThread:42943 [dir_watcher.py:finish():356] scan save: /Users/mehul.fadnavis/Desktop/Personal/ML NanoDegree/Code/genre_classification/exercise_14/starter/segregate/wandb/run-20220803_225407-3o47b61w/files/conda-environment.yaml conda-environment.yaml
+2022-08-03 22:54:13,407 INFO    SenderThread:42943 [dir_watcher.py:finish():356] scan save: /Users/mehul.fadnavis/Desktop/Personal/ML NanoDegree/Code/genre_classification/exercise_14/starter/segregate/wandb/run-20220803_225407-3o47b61w/files/wandb-metadata.json wandb-metadata.json
+2022-08-03 22:54:13,408 INFO    SenderThread:42943 [sender.py:transition_state():389] send defer: 7
+2022-08-03 22:54:13,410 DEBUG   SenderThread:42943 [sender.py:send_request():246] send_request: poll_exit
+2022-08-03 22:54:13,411 DEBUG   HandlerThread:42943 [handler.py:handle_request():141] handle_request: defer
+2022-08-03 22:54:13,411 INFO    HandlerThread:42943 [handler.py:handle_request_defer():164] handle defer: 7
+2022-08-03 22:54:13,412 DEBUG   SenderThread:42943 [sender.py:send_request():246] send_request: defer
+2022-08-03 22:54:13,412 INFO    SenderThread:42943 [sender.py:send_request_defer():385] handle sender defer: 7
+2022-08-03 22:54:13,412 INFO    SenderThread:42943 [file_pusher.py:finish():145] shutting down file pusher
+2022-08-03 22:54:13,512 DEBUG   HandlerThread:42943 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-03 22:54:13,512 DEBUG   SenderThread:42943 [sender.py:send_request():246] send_request: poll_exit
+2022-08-03 22:54:13,619 DEBUG   HandlerThread:42943 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-03 22:54:13,619 DEBUG   SenderThread:42943 [sender.py:send_request():246] send_request: poll_exit
+2022-08-03 22:54:13,721 DEBUG   HandlerThread:42943 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-03 22:54:13,722 DEBUG   SenderThread:42943 [sender.py:send_request():246] send_request: poll_exit
+2022-08-03 22:54:13,827 DEBUG   HandlerThread:42943 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-03 22:54:13,827 DEBUG   SenderThread:42943 [sender.py:send_request():246] send_request: poll_exit
+2022-08-03 22:54:13,930 DEBUG   HandlerThread:42943 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-03 22:54:13,930 DEBUG   SenderThread:42943 [sender.py:send_request():246] send_request: poll_exit
+2022-08-03 22:54:14,035 DEBUG   HandlerThread:42943 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-03 22:54:14,036 DEBUG   SenderThread:42943 [sender.py:send_request():246] send_request: poll_exit
+2022-08-03 22:54:14,140 DEBUG   HandlerThread:42943 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-03 22:54:14,140 DEBUG   SenderThread:42943 [sender.py:send_request():246] send_request: poll_exit
+2022-08-03 22:54:14,244 DEBUG   HandlerThread:42943 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-03 22:54:14,244 DEBUG   SenderThread:42943 [sender.py:send_request():246] send_request: poll_exit
+2022-08-03 22:54:14,315 INFO    Thread-12 :42943 [upload_job.py:push():132] Uploaded file /Users/mehul.fadnavis/Desktop/Personal/ML NanoDegree/Code/genre_classification/exercise_14/starter/segregate/wandb/run-20220803_225407-3o47b61w/files/requirements.txt
+2022-08-03 22:54:14,348 DEBUG   HandlerThread:42943 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-03 22:54:14,349 DEBUG   SenderThread:42943 [sender.py:send_request():246] send_request: poll_exit
+2022-08-03 22:54:14,359 INFO    Thread-14 :42943 [upload_job.py:push():132] Uploaded file /Users/mehul.fadnavis/Desktop/Personal/ML NanoDegree/Code/genre_classification/exercise_14/starter/segregate/wandb/run-20220803_225407-3o47b61w/files/config.yaml
+2022-08-03 22:54:14,377 INFO    Thread-13 :42943 [upload_job.py:push():132] Uploaded file /Users/mehul.fadnavis/Desktop/Personal/ML NanoDegree/Code/genre_classification/exercise_14/starter/segregate/wandb/run-20220803_225407-3o47b61w/files/output.log
+2022-08-03 22:54:14,404 INFO    Thread-16 :42943 [upload_job.py:push():132] Uploaded file /Users/mehul.fadnavis/Desktop/Personal/ML NanoDegree/Code/genre_classification/exercise_14/starter/segregate/wandb/run-20220803_225407-3o47b61w/files/conda-environment.yaml
+2022-08-03 22:54:14,454 DEBUG   HandlerThread:42943 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-03 22:54:14,454 DEBUG   SenderThread:42943 [sender.py:send_request():246] send_request: poll_exit
+2022-08-03 22:54:14,557 DEBUG   HandlerThread:42943 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-03 22:54:14,558 DEBUG   SenderThread:42943 [sender.py:send_request():246] send_request: poll_exit
+2022-08-03 22:54:14,660 DEBUG   HandlerThread:42943 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-03 22:54:14,660 DEBUG   SenderThread:42943 [sender.py:send_request():246] send_request: poll_exit
+2022-08-03 22:54:14,766 DEBUG   HandlerThread:42943 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-03 22:54:14,767 DEBUG   SenderThread:42943 [sender.py:send_request():246] send_request: poll_exit
+2022-08-03 22:54:14,869 DEBUG   HandlerThread:42943 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-03 22:54:14,869 DEBUG   SenderThread:42943 [sender.py:send_request():246] send_request: poll_exit
+2022-08-03 22:54:14,876 INFO    Thread-15 :42943 [upload_job.py:push():132] Uploaded file /Users/mehul.fadnavis/Desktop/Personal/ML NanoDegree/Code/genre_classification/exercise_14/starter/segregate/wandb/run-20220803_225407-3o47b61w/files/wandb-summary.json
+2022-08-03 22:54:14,975 DEBUG   HandlerThread:42943 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-03 22:54:14,976 DEBUG   SenderThread:42943 [sender.py:send_request():246] send_request: poll_exit
+2022-08-03 22:54:15,078 INFO    Thread-6  :42943 [sender.py:transition_state():389] send defer: 8
+2022-08-03 22:54:15,078 DEBUG   HandlerThread:42943 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-03 22:54:15,078 DEBUG   SenderThread:42943 [sender.py:send_request():246] send_request: poll_exit
+2022-08-03 22:54:15,079 DEBUG   HandlerThread:42943 [handler.py:handle_request():141] handle_request: defer
+2022-08-03 22:54:15,079 INFO    HandlerThread:42943 [handler.py:handle_request_defer():164] handle defer: 8
+2022-08-03 22:54:15,079 DEBUG   SenderThread:42943 [sender.py:send_request():246] send_request: defer
+2022-08-03 22:54:15,079 INFO    SenderThread:42943 [sender.py:send_request_defer():385] handle sender defer: 8
+2022-08-03 22:54:15,185 DEBUG   HandlerThread:42943 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-03 22:54:15,323 INFO    SenderThread:42943 [sender.py:transition_state():389] send defer: 9
+2022-08-03 22:54:15,323 DEBUG   SenderThread:42943 [sender.py:send_request():246] send_request: poll_exit
+2022-08-03 22:54:15,324 DEBUG   HandlerThread:42943 [handler.py:handle_request():141] handle_request: defer
+2022-08-03 22:54:15,324 INFO    HandlerThread:42943 [handler.py:handle_request_defer():164] handle defer: 9
+2022-08-03 22:54:15,325 DEBUG   SenderThread:42943 [sender.py:send_request():246] send_request: defer
+2022-08-03 22:54:15,325 INFO    SenderThread:42943 [sender.py:send_request_defer():385] handle sender defer: 9
+2022-08-03 22:54:15,325 INFO    SenderThread:42943 [sender.py:transition_state():389] send defer: 10
+2022-08-03 22:54:15,326 DEBUG   SenderThread:42943 [sender.py:send():232] send: final
+2022-08-03 22:54:15,326 DEBUG   SenderThread:42943 [sender.py:send():232] send: footer
+2022-08-03 22:54:15,326 DEBUG   HandlerThread:42943 [handler.py:handle_request():141] handle_request: defer
+2022-08-03 22:54:15,326 INFO    HandlerThread:42943 [handler.py:handle_request_defer():164] handle defer: 10
+2022-08-03 22:54:15,327 DEBUG   SenderThread:42943 [sender.py:send_request():246] send_request: defer
+2022-08-03 22:54:15,327 INFO    SenderThread:42943 [sender.py:send_request_defer():385] handle sender defer: 10
+2022-08-03 22:54:15,427 DEBUG   HandlerThread:42943 [handler.py:handle_request():141] handle_request: poll_exit
+2022-08-03 22:54:15,427 DEBUG   SenderThread:42943 [sender.py:send_request():246] send_request: poll_exit
+2022-08-03 22:54:15,427 INFO    SenderThread:42943 [file_pusher.py:join():150] waiting for file pusher
+2022-08-03 22:54:16,235 DEBUG   HandlerThread:42943 [handler.py:handle_request():141] handle_request: sampled_history
+2022-08-03 22:54:16,236 DEBUG   HandlerThread:42943 [handler.py:handle_request():141] handle_request: get_summary
+2022-08-03 22:54:16,237 DEBUG   HandlerThread:42943 [handler.py:handle_request():141] handle_request: shutdown
+2022-08-03 22:54:16,237 INFO    HandlerThread:42943 [handler.py:finish():806] shutting down handler
+2022-08-03 22:54:16,329 INFO    WriterThread:42943 [datastore.py:close():279] close: /Users/mehul.fadnavis/Desktop/Personal/ML NanoDegree/Code/genre_classification/exercise_14/starter/segregate/wandb/run-20220803_225407-3o47b61w/run-3o47b61w.wandb
+2022-08-03 22:54:17,135 INFO    SenderThread:42943 [sender.py:finish():1110] shutting down sender
+2022-08-03 22:54:17,135 INFO    SenderThread:42943 [file_pusher.py:finish():145] shutting down file pusher
+2022-08-03 22:54:17,135 INFO    SenderThread:42943 [file_pusher.py:join():150] waiting for file pusher
+2022-08-03 22:54:17,138 INFO    MainThread:42943 [internal.py:handle_exit():80] Internal process exited
