@@ -38,7 +38,6 @@ def go(config: DictConfig):
         )
 
     if "preprocess" in steps_to_execute:
-
         ## YOUR CODE HERE: call the preprocess step
         pass
 
